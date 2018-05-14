@@ -1,0 +1,35 @@
+tr,td,th,table {
+  border:0.2px solid tomato;
+  border-collapse: collapse;
+}
+td,th {
+  padding:10px;
+  text-align: center;
+}
+.listpassword{
+  width:50%;
+  margin:20px;
+}
+
+.container{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.line-through {
+  text-decoration: line-through;
+}
+
+.searching{
+  margin: 10px;
+  margin-left:0px;
+}
+
+.addpassword{
+  widows: 50%;
+  margin:20px;
+}
+
+.webkit .passw[type="password"]{
+  font-size: 20px;
+}
